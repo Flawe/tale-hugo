@@ -32,8 +32,25 @@
     text-align: justify;
   }
 
-  a:hover {
-    text-decoration: underline;
+  p a {
+    color: #84c240;
+    border-bottom: 1px solid transparent;
+    transition: color,border-color .2s linear;
+  }
+
+  p a:hover {
+    border-color: #84c240;
+  }
+
+  figure {
+    margin: 3rem auto 0.5rem;
+  }
+
+  figcaption p {
+    font-style: italic;
+    font-size: smaller;
+    color: $grey-1;
+    text-align: center;
   }
 
   img {
